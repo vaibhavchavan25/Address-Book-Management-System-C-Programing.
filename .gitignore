@@ -1,55 +1,30 @@
-# Prerequisites
-*.d
+2. Navigate to the Project Folder
+cd AddressBook
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+3. Compile and Run on Linux / macOS
+gcc address_book.c -o address_book
+./address_book
 
-# Linker output
-*.ilk
-*.map
-*.exp
+4. Compile and Run on Windows (MinGW)
+gcc address_book.c -o address_book.exe
+address_book.exe
 
-# Precompiled Headers
-*.gch
-*.pch
+File Structure
+AddressBook/
+├── address_book.c        # Main source code
+├── contacts.txt          # Data file for storing contacts
+└── README.md             # Project documentation
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+Sample Output
+========== ADDRESS BOOK ==========
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Edit Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 1
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+Enter Name: Vaibhav
+Enter Email: vaibhav@example.com
+Contact saved successfully!
