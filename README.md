@@ -1,18 +1,34 @@
-# Address-Book-Management-System-C-Programing.
-A C-based Address Book management system that demonstrates the use of structures, pointers, and file I/O. Designed for beginners in embedded and systems programming to practice memory management and data organization.
+# Address Book Management System (C Programming)
 
-## 🚀 Features
+A C-based Address Book management system that demonstrates the use of structures, pointers, and file I/O.  
+Designed for beginners in embedded and systems programming to practice memory management and data organization.
 
-- ➕ Add new contacts (name, phone number, email, etc.)
-- 📖 View all saved contacts
-- 🔍 Search for a contact by name or phone number
-- ✏️ Edit existing contact details
-- ❌ Delete a contact
-- 💾 File-based data storage (contacts remain saved after program exits)
+GitHub Repository: [Address-Book-Management-System-C-Programing](https://github.com/vaibhavchavan25/Address-Book-Management-System-C-Programing)
 
 ---
 
-## 🧠 Concepts Used
+## Table of Contents
+- [Features](#features)
+- [Concepts Used](#concepts-used)
+- [How to Compile and Run](#how-to-compile-and-run)
+- [File Structure](#file-structure)
+- [Sample Output](#sample-output)
+- [Author](#author)
+
+---
+
+## Features
+
+- Add new contacts (name, phone number, email, etc.)
+- View all saved contacts
+- Search for a contact by name or phone number
+- Edit existing contact details
+- Delete a contact
+- File-based data storage (contacts remain saved after program exits)
+
+---
+
+## Concepts Used
 
 - Structures (`struct`)
 - File handling (`fopen`, `fread`, `fwrite`, `fprintf`, `fscanf`)
@@ -22,16 +38,26 @@ A C-based Address Book management system that demonstrates the use of structures
 
 ---
 
-## 🖥️ How to Compile and Run
+## How to Compile and Run
 
-### Using GCC
-```bash
+2. Navigate to the Project Folder
+cd AddressBook
+
+3. Compile and Run on Linux / macOS
 gcc address_book.c -o address_book
 ./address_book
+
+4. Compile and Run on Windows (MinGW)
+gcc address_book.c -o address_book.exe
+address_book.exe
+
+File Structure
 AddressBook/
 ├── address_book.c        # Main source code
 ├── contacts.txt          # Data file for storing contacts
 └── README.md             # Project documentation
+
+Sample Output
 ========== ADDRESS BOOK ==========
 1. Add Contact
 2. View Contacts
