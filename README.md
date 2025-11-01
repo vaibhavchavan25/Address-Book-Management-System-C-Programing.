@@ -2,9 +2,6 @@
 
 A C-based Address Book management system that demonstrates the use of structures, pointers, and file I/O.  
 Designed for beginners in embedded and systems programming to practice memory management and data organization.
-
-GitHub Repository: [Address-Book-Management-System-C-Programing](https://github.com/vaibhavchavan25/Address-Book-Management-System-C-Programing)
-
 ---
 
 ## Table of Contents
