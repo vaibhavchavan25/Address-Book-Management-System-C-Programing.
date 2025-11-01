@@ -3,17 +3,6 @@
 A C-based Address Book management system that demonstrates the use of structures, pointers, and file I/O.  
 Designed for beginners in embedded and systems programming to practice memory management and data organization.
 ---
-
-## Table of Contents
-- [Features](#features)
-- [Concepts Used](#concepts-used)
-- [How to Compile and Run](#how-to-compile-and-run)
-- [File Structure](#file-structure)
-- [Sample Output](#sample-output)
-- [Author](#author)
-
----
-
 ## Features
 
 - Add new contacts (name, phone number, email, etc.)
