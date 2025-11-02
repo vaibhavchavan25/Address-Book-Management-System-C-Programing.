@@ -1,58 +1,47 @@
-# Address Book Management System (C Programming)
+🧩 How to Compile and Run the Project
+1. Prerequisites
 
-A C-based Address Book management system that demonstrates the use of structures, pointers, and file I/O.  
-Designed for beginners in embedded and systems programming to practice memory management and data organization.
----
-## Features
+Make sure you have the following installed on your system:
 
-- Add new contacts (name, phone number, email, etc.)
-- View all saved contacts
-- Search for a contact by name or phone number
-- Edit existing contact details
-- Delete a contact
-- File-based data storage (contacts remain saved after program exits)
+GCC Compiler
 
----
+Any text editor or IDE (VS Code, Code::Blocks, Dev C++, etc.)
 
-## Concepts Used
+2. Clone or Download
 
-- Structures (`struct`)
-- File handling (`fopen`, `fread`, `fwrite`, `fprintf`, `fscanf`)
-- Pointers and dynamic memory (optional)
-- Functions and modular code organization
-- Menu-driven interface
+Clone the repository using:
 
----
+git clone https://github.com/Nakulvadar/Address-Book-Management-System-C-Programming.git
 
-## How to Compile and Run
 
-2. Navigate to the Project Folder
-cd AddressBook
+Or download the ZIP file and extract it.
 
-3. Compile and Run on Linux / macOS
+3. Navigate to the Project Directory
+cd Address-Book-Management-System-C-Programming
+
+4. Compile the Code
+
+Use GCC to compile the source file:
+
 gcc address_book.c -o address_book
+
+
+(If your project has multiple .c files, compile them together, for example:)
+
+gcc main.c contact.c menu.c -o address_book
+
+5. Run the Executable
 ./address_book
 
-4. Compile and Run on Windows (MinGW)
-gcc address_book.c -o address_book.exe
+
+(For Windows users)
+
 address_book.exe
 
-File Structure
-AddressBook/
-├── address_book.c        # Main source code
-├── contacts.txt          # Data file for storing contacts
-└── README.md             # Project documentation
+6. Usage
 
-Sample Output
-========== ADDRESS BOOK ==========
-1. Add Contact
-2. View Contacts
-3. Search Contact
-4. Edit Contact
-5. Delete Contact
-6. Exit
-Enter your choice: 1
+Once the program starts:
 
-Enter Name: Vaibhav
-Enter Email: vaibhav@example.com
-Contact saved successfully!
+Choose options from the menu to add, search, edit, delete, or view contacts.
+
+All records are stored in a file for data persistence.
