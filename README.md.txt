@@ -1,7 +1,12 @@
 # Address Book
 
-## Project Overview
-A simple C-based Address Book application to add, search, display, and save contacts with email validation and file handling.
+Project Overview
+
+The Address Book Management System is a C language application designed to efficiently manage personal contact information.
+It allows users to add, search, edit, delete, and display contacts through a simple menu-driven interface.
+
+The project demonstrates practical use of structures, file handling, and input validation (including email verification) to ensure data reliability and persistence.
+All contact details are securely stored in a file, allowing data to remain available even after the program is closed.
 
 ## Features
 - Add new contacts
@@ -40,5 +45,6 @@ AddressBook/
 ```
 
 ## Author
-**Nakul Anil Vadar**  
+**Vaibhav Chavan**  
 Electronic and Telecommunications Enthusiast
+
